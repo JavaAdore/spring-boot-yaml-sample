@@ -1,0 +1,33 @@
+person:
+  firstName: &firstName Mahmoud
+  middleName:  &middleName Mohamed Eltaieb
+  lastName:   &lastName Ahmed
+  age: !!float 28
+
+  profession: Software Developer
+  single: true
+  birthDate: 1990-09-26
+
+  singleLineDescription:   &desc1 >
+                                        Multi
+                                        Line
+                                        Description
+                                        But
+                                        Will
+                                        Be
+                                        Loaded
+                                        As
+                                        A
+                                        Single
+                                        Line
+  multiLineDescription:   &desc2 |
+                                        Multi
+                                        Line
+                                        Description
+                                        And
+                                        Will
+                                        Be
+                                        Loaded
+                                        As
+                                        Multi
+                                        Lines
